@@ -1,9 +1,9 @@
 fn main(){
-    let mut i=0;
+    let mut i=1;
     loop {
-        println!(i);
+        println!("{:?}",i);
         i+=1;
-        if(i>4){
+        if i>4 {
             break;
         }
     }
