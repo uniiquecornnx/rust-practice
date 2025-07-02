@@ -24,17 +24,11 @@ fn main(){
         flavor: Flavor::Chocolate,
         fruit_oz: 12.0
     };
-
-    
     print_drink(drink);
     let drink2 = Drink{
         flavor: Flavor::Vanilla,
         fruit_oz: 10.0
     };
-    print_drink(drink2);
-    let drink3 = Drink{
-        flavor: Flavor::Mango,
-        fruit_oz: 15.0
-    };
+   
     print_drink(drink3);
 }
